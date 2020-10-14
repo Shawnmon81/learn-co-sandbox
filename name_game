@@ -1,0 +1,21 @@
+puts "What is your name?"
+
+current_job = gets.strip.capitalize
+case current_job
+
+  when "Shawn"
+    puts "You are currntly unemployed"
+  when "Sanford"
+    puts "You are currently a Lawyer"
+  when "Brian"
+    puts "You are currently a Crypto Junkie"
+  when "Pat"
+    puts "You are a Exercise Instructor"
+  when "Jason"
+    puts "You are a code master"
+  else
+    puts "I don't know your job. What is it?"
+    unknown_job = gets.strip
+   puts "Your job is #{unknown_job}"
+  end
+  
